@@ -94,6 +94,54 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: poppler-clang
+Version: 20240313-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 25484
+Depends: libc++1-16,libc++abi1-16,libunwind-16,libc6,libgcc-s1
+Provides: poppler-clang
+Filename: pool/main/poppler-clang_20240313-1_arm64.deb
+Size: 7133168
+MD5sum: 8112147ffef6a7c7ed1d2a981e350d30
+SHA1: 8a69d59eda1f5c087f04f7169fc95e5630811b29
+SHA256: 205d5c83cc7d8d582c9dc37c9e3ce0d452472744501b673701c827e0e7050265
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: poppler-clang17
+Version: 20240313-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 26264
+Depends: libc++1-16,libc++abi1-16,libunwind-16,libc6,libgcc-s1
+Provides: poppler-clang17
+Filename: pool/main/poppler-clang17_20240313-1_arm64.deb
+Size: 7334852
+MD5sum: 6bc2371a04afefe2aeedd85dd90a2725
+SHA1: 577ac5ff048fd7448dcd6e30b0b5948c75fc39ff
+SHA256: 12317fd0c74f12ce8858c68f41e3c9eb389268faf1815f95d5443e76b847a4cf
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: poppler-clang18
+Version: 20240313-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 26172
+Depends: libc++1-16,libc++abi1-16,libunwind-16,libc6,libgcc-s1
+Provides: poppler-clang18
+Filename: pool/main/poppler-clang18_20240313-1_arm64.deb
+Size: 7323042
+MD5sum: 83913b8252452afe656b284efe76702e
+SHA1: 09b393fd84a4de5c4e42067e5a1bbd291261284c
+SHA256: 014825d01046b7bd766046c0c882c60dd55c4be558fbcf133d9e85b462008da8
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: protobuf-clang
 Version: 3.20.3-1
 Architecture: arm64

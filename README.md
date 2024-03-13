@@ -21,6 +21,13 @@ All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang17).
 * `jags-clang18`: similar to the previous one, with clang 18, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang18).
+* `poppler-clang`: Poppler, compiled with clang, linking against
+  libc++. It needs the libc++16 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile
+* `poppler-clang17`: similar to the previous one, with clang 17, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang17).
+* `poppler-clang18`: similar to the previous one, with clang 18, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang18).
 * `protobuf-clang`: protobuf compiled with clang, linking against
   libc++. It needs the libc++-16 libs, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile).
