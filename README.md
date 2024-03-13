@@ -3,11 +3,31 @@
 
 ## Current packages
 
+All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
+
+* `imagemagick-clang`: ImageMagick compiled with clang, linking against
+  libc++. It needs the libc++-16 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile).
+* `imagemagick-clang17`: ImageMagick compiled with clang 17, linking against
+  libc++. It needs the libc++-17 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile-clang17).
+* `imagemagick-clang18`: ImageMagick compiled with clang 18, linking against
+  libc++. It needs the libc++-18 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile-clang18).
+* `jags-clang`: JAGS compiled with clang, linking against
+  libc++. It needs the libc++16 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile).
+* `jags-clang17`: similar to the previous one, with clang 17, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang17).
+* `jags-clang18`: similar to the previous one, with clang 18, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang18).
 * `protobuf-clang`: protobuf compiled with clang, linking against
-  libc++. It needs the libc++-16 libs (see `Dockerfile`).
-  [Dockerfile for Ubuntu 22.04](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile)
-* `protobuf-clang17`: similar to the previous one, with clang 17.
-* `protobuf-clang18`: similar to the previous ones, with clang 18.
+  libc++. It needs the libc++-16 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile).
+* `protobuf-clang17`: similar to the previous one, with clang 17, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang17).
+* `protobuf-clang18`: similar to the previous ones, with clang 18, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang18).
 * `skopeo`: a newer version, to be able to push packages to GHCR.
   [Dockerfile for Ubuntu 22.04](https://github.com/r-hub/containers/blob/main/dependencies/skopeo/Dockerfile)
 
@@ -35,6 +55,8 @@ apt-get install -y ...
 1. Copy the DEB files into `pool/main`.
 2. Create `Packages*` files:
    ```
+   cd
+   cd ppa
    dpkg-scanpackages --arch amd64 pool/ > dists/jammy/main/binary-amd64/Packages
    dpkg-scanpackages --arch arm64 pool/ > dists/jammy/main/binary-arm64/Packages
    gzip -kf dists/jammy/main/binary-amd64/Packages

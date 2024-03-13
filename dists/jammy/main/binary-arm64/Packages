@@ -1,3 +1,99 @@
+Package: imagemagick-clang
+Version: 7.1.1-29-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 55016
+Depends: libc++1-16,libc++abi1-16,libunwind-16,libc6,libgcc-s1,libomp5-16,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang
+Filename: pool/main/imagemagick-clang_7.1.1-29-1_arm64.deb
+Size: 14702146
+MD5sum: 5f9f3d93467f86720084d1f1d8501da0
+SHA1: 9e0733c9b0d90d4e1eea91c0fd8a6591a0da77d0
+SHA256: b1a4bb958e70ac9634d9422f1f26fdee39b0da2584fe36941790f95d9475dfa5
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: imagemagick-clang17
+Version: 7.1.1-29-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 55316
+Depends: libc++1-17,libc++abi1-17,libunwind-17,libc6,libgcc-s1,libomp5-17,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang17
+Filename: pool/main/imagemagick-clang17_7.1.1-29-1_arm64.deb
+Size: 14679372
+MD5sum: e0f108b16a8e586976a3908cf97e242f
+SHA1: 645d9053113f057cc0163f16d3855189cc5383f0
+SHA256: fb277038a81620096f2f16197560d4941f3200f80e996b961706f34d858dff70
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: imagemagick-clang18
+Version: 7.1.1-29-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 55140
+Depends: libc++1-18,libc++abi1-18,libunwind-18,libc6,libgcc-s1,libomp5-18,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang18
+Filename: pool/main/imagemagick-clang18_7.1.1-29-1_arm64.deb
+Size: 14678036
+MD5sum: 1aa15ad3437faef6511dae272aff372c
+SHA1: db8dbf67409589b80d39c889f12139180bff9a95
+SHA256: 8028ee9f4928bb144efd67a7dd2a26359558ec5aa008d0f256bbac698a71abb2
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang
+Version: 4.3.2-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3240
+Depends: libc++1-16,libc++abi1-16,libunwind-16,libc6,libgcc-s1
+Provides: jags-clang
+Filename: pool/main/jags-clang_4.3.2-1_arm64.deb
+Size: 869664
+MD5sum: ac406e624c1c57969efa45b130800689
+SHA1: aa5ca6e867b64e0795efda57a1224eb75c73e0db
+SHA256: 9a5464d30201554a0e395c2a6a60bf982486b74bcf0f561791fbd9239fe078b0
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang17
+Version: 4.3.2-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3228
+Depends: libc++1-17,libc++abi1-17,libunwind-17,libc6,libgcc-s1
+Provides: jags-clang17
+Filename: pool/main/jags-clang17_4.3.2-1_arm64.deb
+Size: 873198
+MD5sum: afc0758c22e8e2f9469f02214a267191
+SHA1: fde84f996c293c5e95d2825896072bc9d4060248
+SHA256: 15f4c682790a3b8554ec7ce1bdc0a790066e15897e4c2d48bb41a7236721cde7
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang18
+Version: 4.3.2-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3188
+Depends: libc++1-18,libc++abi1-18,libunwind-18,libc6,libgcc-s1
+Provides: jags-clang18
+Filename: pool/main/jags-clang18_4.3.2-1_arm64.deb
+Size: 871800
+MD5sum: 083b48bbc0ed07846bb636fcc9bc93a0
+SHA1: 5e88e1cac45bfad6746445eb3bcd1cd228317dbc
+SHA256: f9b17e8ac57ff574a9d07f1c06000a41a3007389a608537a06cd9187fe9b3897
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: protobuf-clang
 Version: 3.20.3-1
 Architecture: arm64
