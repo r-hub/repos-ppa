@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: R-hub
+Label: R-hub
+Suite: jammy
+Codename: jammy
+Version: 1.0.0
+Architectures: amd64 arm64
+Components: main
+Description: Packages for R-hub's containers
+Date: Wed, 13 Mar 2024 09:35:57 +0000
+MD5Sum:
+ a9bed7d47518c6325406f70dd3db3ded 855 main/binary-arm64/Packages.gz
+ 6f118910d62c2c5bb402c72acc709c45 2218 main/binary-arm64/Packages
+ 9f4b1c13e475138e9e4dcd94c6802d43 856 main/binary-amd64/Packages.gz
+ 139159d12a97dce8b1b2343902a341a0 2218 main/binary-amd64/Packages
+SHA1:
+ aaccddff462e6b4554d69f91d949841580db4e6b 855 main/binary-arm64/Packages.gz
+ d07f3a222351f246e997163218dfbb5ffa2352ae 2218 main/binary-arm64/Packages
+ c0653a9873a4fd1ef1d07c9ebce0565e0aa7ae5b 856 main/binary-amd64/Packages.gz
+ 664ba1accbf288e94a06e4eed47cb174200b514f 2218 main/binary-amd64/Packages
+SHA256:
+ d0ed18b5771f679e5559c2a78cef5885c42a04e8621f408ab836850391fd8f8c 855 main/binary-arm64/Packages.gz
+ 8c0e6661ecb3b2cb9b9e046753cb009727be83b3f88bab5081bfba9e6f719732 2218 main/binary-arm64/Packages
+ 25813f7245298ec6a29cbb27823ee07f97cc4978988c20b994e1b5a2d4cb4a03 856 main/binary-amd64/Packages.gz
+ 303ac5620e45def8024a39d895f5ea5090143317f2f30ddafe542fe783cbdccf 2218 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCgA1FiEEWOOW3pEE2IFCV2zjLQo0vRxa8TQFAmXxc6YXHGNzYXJkaS5n
+YWJvckBnbWFpbC5jb20ACgkQLQo0vRxa8TTuEQ/+IDIXrwd9RKuAwcfVeQytz4lU
+jRnWoq56LLtQ7SL2JY69goBggVo3aLu6V+WVVhLw+EyDGJPuiMckRQiy/uapj2Ga
+UD7YGY19z5k6gipT6sjzB/bkZ+0c271jMequpj8qNR5SM9MO6GyByw/ZhKrpVizz
+zKTA2lvJNH97sYCfGUhNHTXiGUVu8+lZPYUqNJtM0TpRC1JXMpv7Jfeeil61IY+f
+olDyKYiYVWYGQc3LIHAtWNwPFBDpPkFPKinPDtoZ71w1lWbm7DMK7j42+WAFAfMS
+bO9TBZxGRzu+hBbnvZ4fbO+ZzzJ3S54WsDmoZmFQ7OlsCpvBH8IaBc6Xs4H5hiIf
+Nt0RocPpR0+cgX3wNIKLYRqirGrKRdLgrmbo5Uhd4SsS73zS5AU87243VWbIR7tc
+nsoGtt6prek2HTJ4YU0cOFEbEELdYC/MwukuWJImE8vRH2GU7zdaxqoBvuCd2h3b
+3V3m7kNThsLRhvKdlRn7Bkh/7K5XYrmZfd2sclsg7NZR6tiGbD+ySy60cbFMRpTV
+DOWaOLkGQgxkrrOe1Giwx471DqjOEuIn+XT3+ze2CQcHN9pVl8bZ8iEZW4y4N4v5
+9jy8BlwZfDlM9oYyAmlheXsHOLYS8qACLnEBx4QyOavYzKCvkD7ms4VIlCLAGYrS
+ZHB/7sFxaP/9PbnXfhY=
+=4ulY
+-----END PGP SIGNATURE-----
