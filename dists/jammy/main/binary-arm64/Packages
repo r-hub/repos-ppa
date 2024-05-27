@@ -46,6 +46,22 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: imagemagick-clang19
+Version: 7.1.1-33-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 55852
+Depends: libc++1-19,libc++abi1-19,libunwind-19,libc6,libgcc-s1,libomp5-19,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang19
+Filename: pool/main/imagemagick-clang19_7.1.1-33-1_arm64.deb
+Size: 14822088
+MD5sum: 9769274c991c2feb706aba2bf8dd8af2
+SHA1: cca8e13d62e9b52f57927f3a7bef7c3c397fe895
+SHA256: 9e626289c295884ca6c1574473641a6134947fb7e4cf95612b5a63e9cb8d2076
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: jags-clang
 Version: 4.3.2-1
 Architecture: arm64
@@ -90,6 +106,22 @@ Size: 871800
 MD5sum: 083b48bbc0ed07846bb636fcc9bc93a0
 SHA1: 5e88e1cac45bfad6746445eb3bcd1cd228317dbc
 SHA256: f9b17e8ac57ff574a9d07f1c06000a41a3007389a608537a06cd9187fe9b3897
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang19
+Version: 4.3.2-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3176
+Depends: libc++1-19,libc++abi1-19,libunwind-19,libc6,libgcc-s1
+Provides: jags-clang19
+Filename: pool/main/jags-clang19_4.3.2-1_arm64.deb
+Size: 863372
+MD5sum: 5579b372a473b1bab6c490bf19e91fdf
+SHA1: b143ceabb6cd13f79f763dd64b691ae7e0e84426
+SHA256: 9c33240396a2b9b5004235f064b6a0733e6205b8a6f1a1fba82db726d9ef4184
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -142,6 +174,22 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: poppler-clang19
+Version: 20240527-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 28008
+Depends: libc++1-19,libc++abi1-19,libunwind-19,libc6,libgcc-s1
+Provides: poppler-clang19
+Filename: pool/main/poppler-clang19_20240527-1_arm64.deb
+Size: 7803246
+MD5sum: 81a93104f3b94d553b5660e215aa47cf
+SHA1: a1b67dbb6a8d8eb448406a371f12087286c7ca5b
+SHA256: 2860260cce9ebdbcc82cc288d2d527be23a7fbcc9aa280cdb248ed1e5cafe775
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: protobuf-clang
 Version: 3.20.3-1
 Architecture: arm64
@@ -186,6 +234,22 @@ Size: 18083174
 MD5sum: 60717aa94d13869eea31f3fa1cdd92f7
 SHA1: b335b5e1aca20119a64497c7bfbc8b9422302fd7
 SHA256: a1e8610de9dba81b94de3272bf8744f5e3a7b18f96e2ae9fca3caddd12e169df
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: protobuf-clang19
+Version: 3.20.3-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 107452
+Depends: libc++1-19,libc++abi1-19,libunwind-19,libc6,libgcc-s1
+Provides: protobuf-clang19
+Filename: pool/main/protobuf-clang19_3.20.3-1_arm64.deb
+Size: 17586730
+MD5sum: ee7c5725b90a8c414fcce75dfc2041c3
+SHA1: 9539cd691369e144bd6a272b69e1440209c87083
+SHA256: a0141da5a0048bf9765821e535ac71b1e4804380c0c4c5b3943a84b21707bb22
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
