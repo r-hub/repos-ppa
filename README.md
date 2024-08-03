@@ -14,6 +14,12 @@ All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
 * `imagemagick-clang18`: ImageMagick compiled with clang 18, linking against
   libc++. It needs the libc++-18 libs, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile-clang18).
+* `imagemagick-clang19`: ImageMagick compiled with clang 19, linking against
+  libc++. It needs the libc++-19 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile-clang19).
+* `imagemagick-clang20`: ImageMagick compiled with clang 20, linking against
+  libc++. It needs the libc++-20 libs, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/imagemagick/Dockerfile-clang20).
 * `jags-clang`: JAGS compiled with clang, linking against
   libc++. It needs the libc++16 libs, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile).
@@ -21,6 +27,10 @@ All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang17).
 * `jags-clang18`: similar to the previous one, with clang 18, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang18).
+* `jags-clang19`: similar to the previous one, with clang 19, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang19).
+* `jags-clang20`: similar to the previous one, with clang 20, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/jags/Dockerfile-clang20).
 * `poppler-clang`: Poppler, compiled with clang, linking against
   libc++. It needs the libc++16 libs, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile
@@ -28,6 +38,10 @@ All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang17).
 * `poppler-clang18`: similar to the previous one, with clang 18, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang18).
+* `poppler-clang19`: similar to the previous one, with clang 19, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang19).
+* `poppler-clang20`: similar to the previous one, with clang 20, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/poppler/Dockerfile-clang20).
 * `protobuf-clang`: protobuf compiled with clang, linking against
   libc++. It needs the libc++-16 libs, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile).
@@ -35,6 +49,10 @@ All packages are for Ubuntu 22.04 only and are available for amd64 and arm64.
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang17).
 * `protobuf-clang18`: similar to the previous ones, with clang 18, see
   [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang18).
+* `protobuf-clang19`: similar to the previous ones, with clang 19, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang19).
+* `protobuf-clang20`: similar to the previous ones, with clang 20, see
+  [Dockerfile](https://github.com/r-hub/containers/blob/main/dependencies/protobuf/Dockerfile-clang20).
 * `skopeo`: a newer version, to be able to push packages to GHCR.
   [Dockerfile for Ubuntu 22.04](https://github.com/r-hub/containers/blob/main/dependencies/skopeo/Dockerfile)
 

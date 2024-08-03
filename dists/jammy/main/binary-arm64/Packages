@@ -62,6 +62,22 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: imagemagick-clang20
+Version: 7.1.1-36-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 55892
+Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1,libomp5-20,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang20
+Filename: pool/main/imagemagick-clang20_7.1.1-36-1_arm64.deb
+Size: 14847900
+MD5sum: 90ceabb87bc8a2e91a0c66c1bb4f01d0
+SHA1: 276ece3e3c8d0cb1aec782c345f060b4422d60b3
+SHA256: f767d9618c51f3ccc5e7d5e4367fb06a947ba8821dc519088df263aa50c32727
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: jags-clang
 Version: 4.3.2-1
 Architecture: arm64
@@ -122,6 +138,22 @@ Size: 863372
 MD5sum: 5579b372a473b1bab6c490bf19e91fdf
 SHA1: b143ceabb6cd13f79f763dd64b691ae7e0e84426
 SHA256: 9c33240396a2b9b5004235f064b6a0733e6205b8a6f1a1fba82db726d9ef4184
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang20
+Version: 4.3.2-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3176
+Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Provides: jags-clang20
+Filename: pool/main/jags-clang20_4.3.2-1_arm64.deb
+Size: 862532
+MD5sum: 519ddba62875554e870163f7c9587de7
+SHA1: e97309c9fa1d0355f23cf2f5d3d9aab7fa7a2b29
+SHA256: 0b8750f36da9552e0c16ddb30d8f93b5d782a3b4e3d122ff573cbde158bd0bf5
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -190,6 +222,22 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: poppler-clang20
+Version: 20240803-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 27988
+Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Provides: poppler-clang20
+Filename: pool/main/poppler-clang20_20240803-1_arm64.deb
+Size: 7789940
+MD5sum: cfcd1b1411b0825ce6cd2f0b0e677468
+SHA1: c5de04344b7a013dce83fb95a440b26f68072fa6
+SHA256: 3599ecdb44c0bea8163464b286d30457ef7c45cad9a9986fa101c965d0e3fe20
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: protobuf-clang
 Version: 3.20.3-1
 Architecture: arm64
@@ -250,6 +298,22 @@ Size: 17586730
 MD5sum: ee7c5725b90a8c414fcce75dfc2041c3
 SHA1: 9539cd691369e144bd6a272b69e1440209c87083
 SHA256: a0141da5a0048bf9765821e535ac71b1e4804380c0c4c5b3943a84b21707bb22
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: protobuf-clang20
+Version: 3.20.3-1
+Architecture: arm64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 107464
+Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Provides: protobuf-clang20
+Filename: pool/main/protobuf-clang20_3.20.3-1_arm64.deb
+Size: 17605958
+MD5sum: 214c7fb870b1ab531cae9f2ce2fa9fe7
+SHA1: d68d6f293808a77c6ad30e360f5e16ac9b22e535
+SHA256: 216b6f6c8d09738e2993762a00d87806d1f7df73ad60e813781003ad37ca5f26
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
