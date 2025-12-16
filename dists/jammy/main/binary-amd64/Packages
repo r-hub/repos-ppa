@@ -63,17 +63,17 @@ Priority: extra
 Description: Package created with checkinstall 1.6.3
 
 Package: imagemagick-clang20
-Version: 7.1.1-36-1
+Version: 7.1.2-11-1
 Architecture: amd64
 Maintainer: csardi.gabor@gmail.com
-Installed-Size: 57528
-Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1,libomp5-20,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Installed-Size: 57444
+Depends: libc++1,libc++abi1,libunwind,libc6,libgcc-s1,libomp5-20,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
 Provides: imagemagick-clang20
-Filename: pool/main/imagemagick-clang20_7.1.1-36-1_amd64.deb
-Size: 15613474
-MD5sum: 66d68cc7e32bd63b3579dd150c25fc71
-SHA1: 6bbede1181b2b846b6a565f267fcff01670a5804
-SHA256: b5bf428a1a185c3bda0822273d12c784f24afea55a67efd483fd11a4679cf02a
+Filename: pool/main/imagemagick-clang20_7.1.2-11-1_amd64.deb
+Size: 15657718
+MD5sum: f2d91afab3d7bf10d6d9ee68715639bf
+SHA1: 8c44606242c7972a0abc3b3916cab51c99af7e88
+SHA256: d5bb95d9380d4e22b0b6dfdcc93d9b2f5b6f599621143df70d39dc18ac4d48df
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -146,14 +146,14 @@ Package: jags-clang20
 Version: 4.3.2-1
 Architecture: amd64
 Maintainer: csardi.gabor@gmail.com
-Installed-Size: 3460
-Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Installed-Size: 3440
+Depends: libc++1,libc++abi1,libunwind,libc6,libgcc-s1
 Provides: jags-clang20
 Filename: pool/main/jags-clang20_4.3.2-1_amd64.deb
-Size: 971910
-MD5sum: 54619aa855d9ad29e0aaf8a106782729
-SHA1: d88d82fecd95fc2d80fcf0f284f83f56b0e279e0
-SHA256: 1dcc17fb9bda12bbdbbf2bdccd18f8497892a9e6851cf0fb4cd25b9f25c705b1
+Size: 966268
+MD5sum: 64f345ed4e3be30b3ff22b3997c8ddf3
+SHA1: 76e1580ec0f9c27b30aaf8d19f5e785f05f81d51
+SHA256: 05770eedee64a65836f7cd6a9f027b5aff529b9fdbb54ac904427b95cd84d129
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -223,17 +223,17 @@ Priority: extra
 Description: Package created with checkinstall 1.6.3
 
 Package: poppler-clang20
-Version: 20240803-1
+Version: 20251216-1
 Architecture: amd64
 Maintainer: csardi.gabor@gmail.com
-Installed-Size: 28092
-Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Installed-Size: 27144
+Depends: libc++1,libc++abi1,libunwind,libc6,libgcc-s1
 Provides: poppler-clang20
-Filename: pool/main/poppler-clang20_20240803-1_amd64.deb
-Size: 7840552
-MD5sum: 2a53ebb7481e4888adf26c61ba32016f
-SHA1: 35d1dc90868a249c3a5fad6a64e043bbe1ea9202
-SHA256: 8934dcdddac567f9d679617b46622adf95fa883c513e1b64667ffbdcdc191b02
+Filename: pool/main/poppler-clang20_20251216-1_amd64.deb
+Size: 7850774
+MD5sum: 4654c8ef7a0defb94e3f9ffa6f5af0ad
+SHA1: d76e538ce253dddb6f1db449a68d0c8b219dd5dc
+SHA256: c05eae7ed48e31808f11368321a9b91197b399ada4f87dd1c343983624eaf3fa
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -306,14 +306,14 @@ Package: protobuf-clang20
 Version: 3.20.3-1
 Architecture: amd64
 Maintainer: csardi.gabor@gmail.com
-Installed-Size: 107576
-Depends: libc++1-20,libc++abi1-20,libunwind-20,libc6,libgcc-s1
+Installed-Size: 103572
+Depends: libc++1,libc++abi1,libunwind,libc6,libgcc-s1
 Provides: protobuf-clang20
 Filename: pool/main/protobuf-clang20_3.20.3-1_amd64.deb
-Size: 17723200
-MD5sum: 3cb75a60fab1e1228e0086aef67adf4e
-SHA1: bc5bce8e741c9321e1e59d1eb15acea587550dcd
-SHA256: ad055416b11077b99b366748057b0c2834cc71ff5d1cddc528fce957d0641d16
+Size: 17624430
+MD5sum: 0ca47f9b9c0a4683281b91dce9a61b6f
+SHA1: 155feb70bccea28bda7c9f15fed452eba388b937
+SHA256: 55387f89e210d911b40dd653edd78b9e5257c611c4c7dc4346d046cf74a7380a
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
