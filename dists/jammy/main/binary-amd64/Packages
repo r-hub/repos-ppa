@@ -78,6 +78,38 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: imagemagick-clang21
+Version: 7.1.2-17-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 57480
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1,libomp5,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang21
+Filename: pool/main/imagemagick-clang21_7.1.2-17-1_amd64.deb
+Size: 15689978
+MD5sum: 1b9e602c95fc73551b5adca08ea05c00
+SHA1: a421aec6ee33ab42996adfe66983c6b809842c1e
+SHA256: 8bab169b55892d4c7c671fd229efdbaed3a3b382ba84630dbbd60c90e376b0d6
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: imagemagick-clang22
+Version: 7.1.2-17-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 57716
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1,libomp5,zlib1g,libxml2,liblzma5,libpng16-16,libjpeg-turbo8,libtiff5,libjbig0
+Provides: imagemagick-clang22
+Filename: pool/main/imagemagick-clang22_7.1.2-17-1_amd64.deb
+Size: 15758004
+MD5sum: 871c2858d937359c9cad09ae1139c88d
+SHA1: db3998b2e96f09022b9c70fd87902a2b27d4dae6
+SHA256: 96c8af36e8001ffad7d33ebaf3a5a4ab50b3d67890501f1551c04bd2cef9f37b
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: jags-clang
 Version: 4.3.2-1
 Architecture: amd64
@@ -154,6 +186,38 @@ Size: 966268
 MD5sum: 64f345ed4e3be30b3ff22b3997c8ddf3
 SHA1: 76e1580ec0f9c27b30aaf8d19f5e785f05f81d51
 SHA256: 05770eedee64a65836f7cd6a9f027b5aff529b9fdbb54ac904427b95cd84d129
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang21
+Version: 4.3.2-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3460
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1
+Provides: jags-clang21
+Filename: pool/main/jags-clang21_4.3.2-1_amd64.deb
+Size: 971094
+MD5sum: ea66d4defbdb3c4504dc8407a6489df3
+SHA1: 5d99a1a3fd923b5500e1e3e44dd69f4e91e8bf9a
+SHA256: 4aa3067bac657cda2a108b69c2a114e65d3413b757fa1685ad2e1f0c36ec3f41
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: jags-clang22
+Version: 4.3.2-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 3444
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1
+Provides: jags-clang22
+Filename: pool/main/jags-clang22_4.3.2-1_amd64.deb
+Size: 960878
+MD5sum: 7236c56b55955ad747899cf3e2214695
+SHA1: 733085d62279bc0f07f94d211c3f2a47f6304c5d
+SHA256: e8b992af9303b6f1f3539b7bf3bc8f61337660568808020d2ba1259651e8e026
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
@@ -238,6 +302,38 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: poppler-clang21
+Version: 20260316-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 26488
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1,libopenjp2-7,liblcms2-2,libnss3
+Provides: poppler-clang21
+Filename: pool/main/poppler-clang21_20260316-1_amd64.deb
+Size: 7554770
+MD5sum: 5be0fd0d29e6c43c99cf6ec7719311de
+SHA1: f5a9ce9cb62f4355c8f771c8a3464fdaeaf03dbb
+SHA256: 158d781e4b8b865ccdb813690363dcddd39004ddbd578bd8724e096da5da2209
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: poppler-clang22
+Version: 20260316-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 28316
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1,libopenjp2-7,liblcms2-2,libnss3
+Provides: poppler-clang22
+Filename: pool/main/poppler-clang22_20260316-1_amd64.deb
+Size: 7849084
+MD5sum: d02226d93aa514aaf9036c31c5d6dcac
+SHA1: 6b107d4666c5e2a23d64e26fbce0b01674df73d0
+SHA256: bc7439762b450cd4b28f61da4b84448c84f05a77a9fe129549bb378d3925f4ef
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: protobuf-clang
 Version: 3.20.3-1
 Architecture: amd64
@@ -314,6 +410,38 @@ Size: 17624430
 MD5sum: 0ca47f9b9c0a4683281b91dce9a61b6f
 SHA1: 155feb70bccea28bda7c9f15fed452eba388b937
 SHA256: 55387f89e210d911b40dd653edd78b9e5257c611c4c7dc4346d046cf74a7380a
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: protobuf-clang21
+Version: 3.20.3-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 100484
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1
+Provides: protobuf-clang21
+Filename: pool/main/protobuf-clang21_3.20.3-1_amd64.deb
+Size: 17007448
+MD5sum: d12c62ab56e977d9eb561314a88d7fd6
+SHA1: 3ddd2f24e5952a2d13c6d1ecd62f57c5e1e83f85
+SHA256: 7ef26b12536982813da59634344d3d3c530400276fb03dbd9e0d190f3eb66998
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
+Package: protobuf-clang22
+Version: 3.20.3-1
+Architecture: amd64
+Maintainer: csardi.gabor@gmail.com
+Installed-Size: 111496
+Depends: libc++1,libc++abi1,llvm-libunwind1,libc6,libgcc-s1
+Provides: protobuf-clang22
+Filename: pool/main/protobuf-clang22_3.20.3-1_amd64.deb
+Size: 18164168
+MD5sum: 34620c8b7a118d27902390063b332213
+SHA1: 2720fefe3b8d65776eaf36e28223fea4cbe93107
+SHA256: b4f60260065013ff35d81e7346f40bee7f38bb0d7376ccdd692b7de2bd250e00
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
